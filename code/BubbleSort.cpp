@@ -32,7 +32,7 @@ void sort3(vector<int> v);
 int main()
 {
 	vector<int> v = { 5,4,3,2,1,7,6,9,8 };
-	sort(v);	//循环36次
+	sort(v);	//循环36次，8+7+...+1=（8+1）*8/2=36
 	sort2(v);	//循环30次
 	sort3(v);	//循环18次
 
