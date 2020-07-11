@@ -2,7 +2,7 @@
 
 ## 查找
 
-- [二分查找](./code/BinerySearch.cpp)
+- [二分查找](./code/BinarySearch.cpp)
 - loading..
 
 ## 排序
