@@ -21,26 +21,26 @@ void print(vector<int> v)
 }
 
 //普通的冒泡排序
-void sort(vector<int> v);
+void bubbleSort(vector<int> v);
 
 //优化-当数组已经为有序的情况
-void sort2(vector<int> v);
+void bubbleSort2(vector<int> v);
 
 //优化*2-后半段为有序的情况
-void sort3(vector<int> v);
+void bubbleSort3(vector<int> v);
 
 int main()
 {
 	vector<int> v = { 5,4,3,2,1,7,6,9,8 };
-	sort(v);	//循环36次，8+7+...+1=（8+1）*8/2=36
-	sort2(v);	//循环30次，8+7+6+5+4=30
-	sort3(v);	//循环18次
+	bubbleSort(v);	//循环36次，8+7+...+1=（8+1）*8/2=36
+	bubbleSort2(v);	//循环30次，8+7+6+5+4=30
+	bubbleSort3(v);	//循环18次
 
 	return 0;
 }
 
 //O(n^2)
-void sort(vector<int> v)
+void bubbleSort(vector<int> v)
 {
 	int count = 0;
 	int len = v.size();
@@ -59,7 +59,7 @@ void sort(vector<int> v)
 	print(v);
 }
 
-void sort2(vector<int> v)
+void bubbleSort2(vector<int> v)
 {
 	int count = 0;
 	int len = v.size();
@@ -84,7 +84,7 @@ void sort2(vector<int> v)
 	print(v);
 }
 
-void sort3(vector<int> v)
+void bubbleSort3(vector<int> v)
 {
 	int count = 0;
 	int len = v.size();
