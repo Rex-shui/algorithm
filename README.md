@@ -1,5 +1,12 @@
 # algorithm
-## [排序]
+
+## 查找
+
+- [二分查找](./code/BinerySearch.cpp)
+- loading..
+
+## 排序
 
 - [冒泡排序及其优化](./code/BubbleSort.cpp)
+- [插入排序](./code/InsertionSort.cpp)
 - loading..
