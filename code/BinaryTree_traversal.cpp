@@ -9,7 +9,7 @@ struct TreeNode {
 	struct TreeNode * right;
 };
 
-//µİ¹é±éÀú
+//é€’å½’
 void traversal_recursion(TreeNode *root, vector<int> &res) {
 	if (root != NULL) {
 		if (root->left != NULL) {
@@ -22,7 +22,7 @@ void traversal_recursion(TreeNode *root, vector<int> &res) {
 	}
 }
 
-//»ùÓÚÕ»µÄ±éÀú
+//åŸºäºæ ˆ
 void traversal_stack(TreeNode *root, vector<int> &res)
 {
 	stack<TreeNode*> stk;
