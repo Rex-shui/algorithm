@@ -20,6 +20,7 @@
 ## 树
 
 - [中序遍历二叉树](./code/BinaryTree_traversal.cpp)
+- [求二叉树每层节点的平均值](./code/avg_tree_layer.cpp)
 - loading...
 
 ## 其他
